@@ -15,9 +15,9 @@ export default {
           DATABASE_URL : process.env.DATABASE_URL!,
           NEXT_PUBLIC_SOCKET_URL : process.env.NEXT_PUBLIC_SOCKET_URL!,
           NEXTAUTH_URL : process.env.NEXTAUTH_URL!,
-          NEXTAUTH_SECFRET : process.env.NEXTAUTH_SECFRET!,
-          GITHUB_ID : process.env.GITHUB_ID!,
-          GITHUB_SECRET : process.env.GITHUB_SECRET!,
+          NEXTAUTH_SECRET : process.env.NEXTAUTH_SECFRET!,
+          NEXTAUTH_GITHUB_ID : process.env.NEXTAUTH_GITHUB_ID!,
+          NEXTAUTH_GITHUB_SECRET : process.env.NEXTAUTH_GITHUB_SECRET!,
         }
       });
 
