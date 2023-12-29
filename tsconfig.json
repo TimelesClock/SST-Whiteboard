@@ -1,6 +1,8 @@
 {
+  
   "compilerOptions": {
     /* Base Options: */
+    
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
@@ -38,5 +40,5 @@
     "**/*.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules","backend"]
 }
