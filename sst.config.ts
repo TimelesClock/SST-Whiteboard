@@ -11,6 +11,7 @@ export default {
   stacks(app) {
     app.stack(function Site({ stack }) {
       const site = new NextjsSite(stack, "site",{
+        customDomain:"whiteboard.timeles.codes",
         environment:{
           DATABASE_URL : process.env.DATABASE_URL!,
           NEXT_PUBLIC_SOCKET_URL : process.env.NEXT_PUBLIC_SOCKET_URL!,
