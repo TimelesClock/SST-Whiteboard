@@ -17,7 +17,7 @@ export default {
           domainName: "whiteboard.timeles.codes",
           isExternalDomain: true,
           cdk: {
-            certificate: Certificate.fromCertificateArn(stack, "fb228fdb-3d42-4c8f-a1d8-4b47887ecfd1", "arn:aws:acm:ap-southeast-1:684706882628:certificate/fb228fdb-3d42-4c8f-a1d8-4b47887ecfd1"),
+            certificate: Certificate.fromCertificateArn(stack, "5fadaabb-93fa-4a74-b77e-2ce9ae83692e", "arn:aws:acm:us-east-1:684706882628:certificate/5fadaabb-93fa-4a74-b77e-2ce9ae83692e"),
           },
         },
         environment: {
