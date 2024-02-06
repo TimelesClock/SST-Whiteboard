@@ -12,7 +12,7 @@ export default {
   stacks(app) {
     app.setDefaultRemovalPolicy("destroy");
     app.stack(function Site({ stack }) {
-      const site = new NextjsSite(stack, "site", {
+      const site = new NextjsSite(stack, "whiteboard", {
         customDomain: {
           domainName: "whiteboard.timeles.codes",
           isExternalDomain: true,
