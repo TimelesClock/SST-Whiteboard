@@ -35,4 +35,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           npx prisma generate
-          npx sst deploy --stage prod
+          npx sst deploy --stage whiteboard
